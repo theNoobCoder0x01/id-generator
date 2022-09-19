@@ -23,4 +23,4 @@ To know more about Snowflake IDs, check [Wikipedia Snoflake ID](https://en.wikip
 
 > Note: To use this id generator on multiple machines, need to modify the code for assigning unique id (12-bit) to the machine.
 
-[^1] Reference I used to create this id generator. [Medium: Scalable Unique Id Generator](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
+[^1]: Reference I used to create this id generator. [Medium: Scalable Unique Id Generator](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
