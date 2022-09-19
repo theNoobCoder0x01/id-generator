@@ -2,7 +2,7 @@
 
 A simple unique id generator service inspired by Twitter's Snowflake.
 
-To know more about Snowflake IDs, check [Wikipedia Snoflake ID](https://en.wikipedia.org/wiki/Snowflake_ID).
+To know more about Snowflake IDs, check [Wikipedia: Snoflake ID](https://en.wikipedia.org/wiki/Snowflake_ID).
 
 
 ## Usage:
