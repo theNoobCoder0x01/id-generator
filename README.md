@@ -4,11 +4,13 @@ A simple unique id generator service inspired by Twitter's Snowflake.
 
 To know more about Snowflake IDs, check [Wikipedia Snoflake ID](https://en.wikipedia.org/wiki/Snowflake_ID).
 
+
 ## Usage:
 
 1. Install maven if not installed.
 2. Clone the repo and cd into the directory.
 3. Execute command "mvn spring-boot:run".
+
 
 ## Id format:
 
@@ -21,7 +23,9 @@ To know more about Snowflake IDs, check [Wikipedia Snoflake ID](https://en.wikip
 - `counter` is incremented if there are multiple requests at the same millisecond.
 - As there are 12 bits for `counter`, the id generator supports upto 4096 ids per millisecond.
 
+
 > Note: To use this id generator on multiple machines, need to modify the code for assigning unique id (12-bit) to the machine.
+
 
 ### Reference
 
