@@ -12,7 +12,7 @@ To know more about Snowflake IDs, check [Wikipedia Snoflake ID](https://en.wikip
 3. Execute command "mvn spring-boot:run".
 
 
-## Id format:
+## id format:
 
 - Generated id is 64-bits long. (But it is returned in **decimal format**)
 - First bit in the id is left unused. (the sign bit)
