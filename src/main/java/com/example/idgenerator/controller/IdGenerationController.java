@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.idgenerator.service.IdGenerationService;
 
 @RestController
-@RequestMapping("/newId")
+@RequestMapping("/new-id")
 public class IdGenerationController {
     @GetMapping
     public Long getNextId() {
