@@ -29,8 +29,8 @@ To know more about Snowflake IDs, check [Wikipedia: Snowflake ID](https://en.wik
 
 
 ### Want to add:
-> Currently only generates id in one format, want to add support for other formats.
-> Also, want to add support for other customizations (Haven't thought of any... Ideas are most welcomed.)
+- Currently only generates id in one format, want to add support for other formats.
+- Also, want to add support for other customizations (Haven't thought of any... Ideas are most welcomed.)
 
 ### Reference
 
