@@ -8,9 +8,9 @@ public class IdGenerationService {
 
     // static Random random = new Random(6969L);
 
-    final static long NODE_ID_BITS = 12;
-    final static long COUNTER_BITS = 10;
-    final static long MAX_COUNTER = (int) (Math.pow(2, COUNTER_BITS) - 1);;
+    final static long NODE_ID_BITS = 10;
+    final static long COUNTER_BITS = 12;
+    final static long MAX_COUNTER = (int) (Math.pow(2, COUNTER_BITS) - 1);
 
     final static long CUSTOM_EPOCH = 1640995200000L;
     static long lastTimeStamp = -1L;
