@@ -26,6 +26,7 @@ To know more about Snowflake IDs, check [Wikipedia: Snowflake ID](https://en.wik
 
 
 > Note: To use this id generator on multiple machines, need to modify the code for assigning unique id (12-bit) to the machine.
+> I would appreciate any thoughts and help on making this work on multiple nodes.
 
 
 ### Want to add:
