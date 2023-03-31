@@ -28,6 +28,10 @@ To know more about Snowflake IDs, check [Wikipedia: Snowflake ID](https://en.wik
 > Note: To use this id generator on multiple machines, need to modify the code for assigning unique id (12-bit) to the machine.
 
 
+### Want to add:
+> Currently only generates id in one format, want to add support for other formats.
+> Also, want to add support for other customizations (Haven't thought of any... Ideas are most welcomed.)
+
 ### Reference
 
 [Medium: Scalable Unique Id Generator](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
