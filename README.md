@@ -10,7 +10,7 @@ To know more about Snowflake IDs, check [Wikipedia: Snowflake ID](https://en.wik
 1. Install maven if not installed.
 2. Clone the repo and cd into the directory.
 3. Execute command "mvn spring-boot:run".
-4. New id is available at "/newId" endpoint.
+4. New id is available at "/new-id" endpoint.
 
 
 ## id format:
