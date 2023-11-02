@@ -10,8 +10,8 @@ import com.example.idgenerator.service.IdGenerationService;
 @RequestMapping("/new-id")
 public class IdGenerationController {
     @GetMapping
-    public Long getNextId() {
-        return IdGenerationService.nextId();
-        // return Long.toBinaryString(IdGenerationService.nextId());
+    public String getNextId() {
+        // return IdGenerationService.nextId();
+        return "{\"id\": \"" + Long.toString(IdGenerationService.nextId()) + "\"}";
     }
 }

@@ -15,7 +15,7 @@ To know more about Snowflake IDs, check [Wikipedia: Snowflake ID](https://en.wik
 
 ## id format:
 
-- Generated id is 64-bits long. (But it is returned in **decimal format**)
+- Generated id is 64-bits long. (But it is returned in **decimal format** as a **string**)
 - First bit in the id is left unused. (the sign bit)
 - Next 41 bits stores the `timestamp` in milliseconds. (from **custom epoch** of **1st January 2022 00:00:00 UTC**)
 - Next 10 bits are the `nodeId` bits.
